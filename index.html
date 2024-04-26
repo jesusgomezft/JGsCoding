@@ -53,8 +53,8 @@
             <div class="row g-5">
                 <div class="col-lg-4 sticky-lg-top vh-100">
                     <div class="d-flex flex-column h-100 text-center overflow-auto shadow ">
-                        <img class="w-100 img-fluid mb-4" src="img/perfil.jpeg" alt="Image" style="border-radius: 48px;">
-                        <h1 class="text-primary mt-2">Jesus Gomez</h1>
+                        <img class="w-100 img-fluid mb-4" src="img/Logotaza.png" alt="Image" style="border-radius: 48px;">
+                        <h1 class="text-primary mt-2">JG Coding</h1>
                         <div class="mb-4" style="height: 22px;">
                             <h4 class="typed-text-output d-inline-block text-light"></h4>
                             <div class="typed-text d-none">Web Designer, Web Developer, Front End Developer, Redes sociales, Marketing</div>
@@ -351,7 +351,7 @@
                         <div class="owl-carousel testimonial-carousel">
                             <div class="text-left">
                                 <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <p class="fs-4 mb-4">¡Increíble trabajo! Jgs Coding captó exactamente lo que quería para mi sitio web de moda. 
+                                <p class="fs-4 mb-4">¡Increíble trabajo! Jg Coding captó exactamente lo que quería para mi sitio web de moda. 
                                     Son creativos, receptivos y su atención al detalle es excepcional. ¡Gracias por ayudar a mi negocio a brillar en línea!</p>
                                 <div class="d-flex align-items-center">
                                     <img class="img-fluid" src="img/pexels-pixabay-415829.jpg" style="width: 60px; height: 60px;">
@@ -363,7 +363,7 @@
                             </div>
                             <div class="text-left">
                                 <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <p class="fs-4 mb-4">Estoy muy impresionado con el servicio que recibí de Jgs Coding. No solo crearon un sitio web profesional y funcional para mi empresa, 
+                                <p class="fs-4 mb-4">Estoy muy impresionado con el servicio que recibí de Jg Coding. No solo crearon un sitio web profesional y funcional para mi empresa, 
                                     sino que también me guiaron a través del proceso de manera clara y amigable. ¡Recomendaré sus servicios a todos mis colegas!</p>
                                 <div class="d-flex align-items-center">
                                     <img class="img-fluid" src="img/testimonial-2.jpg" style="width: 60px; height: 60px;">
@@ -375,7 +375,7 @@
                             </div>
                             <div class="text-left">
                                 <i class="fa fa-3x fa-quote-left text-primary mb-4"></i>
-                                <p class="fs-4 mb-4">¡No podría estar más feliz con mi nuevo sitio web de viajes! Jgs Coding entendió perfectamente mi visión y la convirtió en una realidad. Su habilidad para crear una experiencia de usuario fluida y atractiva es excepcional.
+                                <p class="fs-4 mb-4">¡No podría estar más feliz con mi nuevo sitio web de viajes! Jg Coding entendió perfectamente mi visión y la convirtió en una realidad. Su habilidad para crear una experiencia de usuario fluida y atractiva es excepcional.
                                      ¡Gracias por ayudarme a compartir mis aventuras con el mundo!</p>
                                 <div class="d-flex align-items-center">
                                     <img class="img-fluid" src="img/pexels-leah-newhouse-1449667.jpg" style="width: 60px; height: 60px;">
@@ -392,30 +392,30 @@
                     <!-- Contact Start -->
                     <section class="py-5 wow fadeInUp" data-wow-delay="0.1s" id="contact">
                         <h1 class="title pb-3 mb-5">Contact Me</h1>
-						<p class="mb-4">¡Contáctame y comencemos a dar vida a tu proyecto para destacar en línea!</p>
-                        <form>
+                        <p class="mb-4">¡Contáctame y comencemos a dar vida a tu proyecto para destacar en línea!</p>
+                        <form action="https://formspree.io/f/mvoezaor" method="POST">
                             <div class="row g-3">
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0 bg-secondary" id="name" placeholder="Your Name">
+                                        <input type="text" class="form-control border-0 bg-secondary" id="name" placeholder="Your Name" name="name" required>
                                         <label for="name">Your Name</label>
                                     </div>
                                 </div>
                                 <div class="col-md-6">
                                     <div class="form-floating">
-                                        <input type="email" class="form-control border-0 bg-secondary" id="email" placeholder="Your Email">
+                                        <input type="email" class="form-control border-0 bg-secondary" id="email" placeholder="Your Email" name="email" required>
                                         <label for="email">Your Email</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <input type="text" class="form-control border-0 bg-secondary" id="subject" placeholder="Subject">
+                                        <input type="text" class="form-control border-0 bg-secondary" id="subject" placeholder="Subject" name="subject">
                                         <label for="subject">Subject</label>
                                     </div>
                                 </div>
                                 <div class="col-12">
                                     <div class="form-floating">
-                                        <textarea class="form-control border-0 bg-secondary" placeholder="Leave a message here" id="message" style="height: 200px"></textarea>
+                                        <textarea class="form-control border-0 bg-secondary" placeholder="Leave a message here" id="message" style="height: 200px" name="message" required></textarea>
                                         <label for="message">Message</label>
                                     </div>
                                 </div>
@@ -425,6 +425,8 @@
                             </div>
                         </form>
                     </section>
+                    
+                    
                     <!-- Contact End -->
 
                     <!-- Footer Start -->
